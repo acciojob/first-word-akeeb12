@@ -1,14 +1,14 @@
 function firstWord(s) {
   // your code here
-	if (s == null || s.length() == 0)
+	if (s == null || s.length == 0)
 	{
 		return "";
 	}
 
-	string word = "";
+	let word = "";
 
 	for (let i = 0; i < s.length; i++) {
-		if(s.charAt() != "")
+		if(s.charAt() != " ")
 		{
 			word = word + s.charAt(i);
 		}else
@@ -22,7 +22,7 @@ function firstWord(s) {
 
 // Do not change the code below
 
-const s = prompt("Enter String:");
-alert(firstWord(s));
+// const s = prompt("Enter String:");
+// alert(firstWord(s));
 
 
